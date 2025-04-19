@@ -2,11 +2,12 @@
 WanderLust is a web application that replicates the core features of Airbnb, built with modern web technologies like Node.js, Express.js, MongoDB, and EJS. It allows users to manage listings, leave reviews, and much more. Whether you're looking for a place to stay or want to host your own, WanderLust has got you covered!
 
 ## Key Features
--**User Login**: Secure login system to manage your account.
--**Add Properties**: Post your property or space for rent, including title, description, price, and images.
--**Edit and Delete Properties**: Easily update or remove your listings at any time.
--**Add and Delete Reviews**: Share your experience with other users and delete reviews if needed.
--**Image Upload**: Upload images of your listings to make them more attractive to potential guests.
+- **User Login**: Secure login system to manage your account.
+- **Add Properties**:  Post your property or space for rent, including title, description, price, location and images.
+- **Edit and Delete Properties**:Easily update or remove your listings at any time.
+- **Add and Delete Reviews**: Share your experience with other users and delete reviews if needed.
+- **Image Upload**: Upload images of your listings to make them more attractive to potential guests.
+
 
 ## Tech Stack
 - **Backend**: Node.js, Express.js
@@ -22,32 +23,38 @@ Follow these steps to run the **WanderLust** project on your local machine:
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/anitha752/WanderLust.git
+```
 
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 Navigate into the project directory and install the required dependencies:
+```bash
 cd WanderLust
 npm install
+```
 
-
-3️⃣ Set Up Environment Variables
+### 3️⃣ Set Up Environment Variables
 Create a .env file in the root directory of the project, and add your environment variables. Here's an example:
+```bash
 dbUrl=your_database_connection_string
 SECRET_KEY=your_secret_key
+```
 
 
-4️⃣ Start the Application
+### 4️⃣ Start the Application
 Once everything is set up, start the server using:
+```bash
 npm start
+```
 Visit http://localhost:8080 to view the application in your browser.
 
 ## Usage
-Login/Sign Up: Users can create an account or log in to manage listings and reviews.
-Manage Listings: As a logged-in user, you can add, edit, or delete your listings.
-Leave Reviews: You can add and delete reviews for other listings.
+- **Login/Sign Up**: Users can create an account or log in to manage properties and reviews.
+- **Manage Listing**s: As a logged-in user, you can add, edit, or delete your properties.
+- **Leave Reviews**: You can add and delete reviews for other properties.
 
 ## Deployment
-The app is live on Render, where it's hosted for production use. It uses MongoDB for data storage, and environment variables are securely handled.
+The app is live on **Render**, where it's hosted for production use. It uses MongoDB for data storage, and environment variables are securely handled.
 
 ## Contributing
 Want to contribute? Feel free to fork the repository and submit a pull request with your improvements! Make sure to write clear, clean code, and follow best practices.
