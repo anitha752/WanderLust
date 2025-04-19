@@ -9,11 +9,11 @@ WanderLust is a web application that replicates the core features of Airbnb, bui
 -**Image Upload**: Upload images of your listings to make them more attractive to potential guests.
 
 ## Tech Stack
--**Backend**: Node.js, Express.js
--**Database**: MongoDB
--**Frontend**: HTML, CSS, JavaScript (with EJS for dynamic content)
--**Architecture**: Follows MVC (Model-View-Controller) pattern
--**API**: Implements RESTful API for managing data (CRUD operations)
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Frontend**: HTML, CSS, JavaScript (with EJS for dynamic content)
+- **Architecture**: Follows MVC (Model-View-Controller) pattern
+- **API**: Implements RESTful API for managing data (CRUD operations)
 
 ## Getting Started
 To run this project on your local machine, follow these steps:
