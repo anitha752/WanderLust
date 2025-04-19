@@ -2,32 +2,32 @@
 WanderLust is a web application that replicates the core features of Airbnb, built with modern web technologies like Node.js, Express.js, MongoDB, and EJS. It allows users to manage listings, leave reviews, and much more. Whether you're looking for a place to stay or want to host your own, WanderLust has got you covered!
 
 ## Key Features
-**User Login**: Secure login system to manage your account.
-**Add Properties**: Post your property or space for rent, including title, description, price, and images.
-**Edit and Delete Properties**: Easily update or remove your listings at any time.
-**Add and Delete Reviews**: Share your experience with other users and delete reviews if needed.
-**Image Upload**: Upload images of your listings to make them more attractive to potential guests.
+-**User Login**: Secure login system to manage your account.
+-**Add Properties**: Post your property or space for rent, including title, description, price, and images.
+-**Edit and Delete Properties**: Easily update or remove your listings at any time.
+-**Add and Delete Reviews**: Share your experience with other users and delete reviews if needed.
+-**Image Upload**: Upload images of your listings to make them more attractive to potential guests.
 
 ## Tech Stack
-**Backend**: Node.js, Express.js
-**Database**: MongoDB
-**Frontend**: HTML, CSS, JavaScript (with EJS for dynamic content)
-**Architecture**: Follows MVC (Model-View-Controller) pattern
-**API**: Implements RESTful API for managing data (CRUD operations)
+-**Backend**: Node.js, Express.js
+-**Database**: MongoDB
+-**Frontend**: HTML, CSS, JavaScript (with EJS for dynamic content)
+-**Architecture**: Follows MVC (Model-View-Controller) pattern
+-**API**: Implements RESTful API for managing data (CRUD operations)
 
 ## Getting Started
 To run this project on your local machine, follow these steps:
-**1. Clone the Repository**
+-**1. Clone the Repository**
 git clone https://github.com/anitha752/WanderLust.git
- **2. Install Dependencies**
+ -**2. Install Dependencies**
 Once you’ve cloned the project, navigate to the project directory and install the required dependencies:
 cd WanderLust
 npm install
-**3. Set Up Environment Variables**
+-**3. Set Up Environment Variables**
 Create a .env file in the root of the project directory, and add your sensitive information like database connection details. Here’s an example of what you’ll need:
 dbUrl=your_database_connection_string
 SECRET_KEY=your_secret_key
- **4. Start the Application**
+ -**4. Start the Application**
 Now that you’ve installed the dependencies and set up your environment variables, you can start the application by running:
 npm start
 Visit http://localhost:8080 to view the application in your browser.
