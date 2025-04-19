@@ -15,20 +15,29 @@ WanderLust is a web application that replicates the core features of Airbnb, bui
 - **Architecture**: Follows MVC (Model-View-Controller) pattern
 - **API**: Implements RESTful API for managing data (CRUD operations)
 
-## Getting Started
-To run this project on your local machine, follow these steps:
--**1. Clone the Repository**
+##  Getting Started
+
+Follow these steps to run the **WanderLust** project on your local machine:
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/anitha752/WanderLust.git
- -**2. Install Dependencies**
-Once you’ve cloned the project, navigate to the project directory and install the required dependencies:
+
+
+2️⃣ Install Dependencies
+Navigate into the project directory and install the required dependencies:
 cd WanderLust
 npm install
--**3. Set Up Environment Variables**
-Create a .env file in the root of the project directory, and add your sensitive information like database connection details. Here’s an example of what you’ll need:
+
+
+3️⃣ Set Up Environment Variables
+Create a .env file in the root directory of the project, and add your environment variables. Here's an example:
 dbUrl=your_database_connection_string
 SECRET_KEY=your_secret_key
- -**4. Start the Application**
-Now that you’ve installed the dependencies and set up your environment variables, you can start the application by running:
+
+
+4️⃣ Start the Application
+Once everything is set up, start the server using:
 npm start
 Visit http://localhost:8080 to view the application in your browser.
 
